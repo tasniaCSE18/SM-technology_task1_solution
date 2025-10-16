@@ -67,17 +67,6 @@ uploaded = files.upload()
 Copy the churn_prediction.py script into a code cell and run it.
 Download generated plots from the Files tab.
 
-Key Results
-
-Best Model: LightGBM (based on ROC-AUC, typically ~0.55)
-Performance Metrics (example, run script for exact values):Model       | Accuracy | Precision | Recall | F1-Score | ROC-AUC
-------------|----------|-----------|--------|----------|--------
-RandomForest| 0.50     | 0.52      | 0.54   | 0.53     | 0.52
-XGBoost     | 0.51     | 0.53      | 0.55   | 0.54     | 0.54
-LightGBM    | 0.52     | 0.54      | 0.56   | 0.55     | 0.55
-ANN         | 0.49     | 0.51      | 0.53   | 0.52     | 0.51
-
-
 Top Features:
 Num_of_Support_Contacts: Higher contacts strongly correlate with churn.
 Last_Purchase_Days_Ago: Longer inactivity increases churn risk.
